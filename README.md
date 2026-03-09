@@ -114,6 +114,8 @@ During training, the loss value is recorded at each iteration of gradient descen
 This information is used to generate convergence plots showing how the optimization progresses.
 
 Example output:
+
+
 <img width="799" height="455" alt="image" src="https://github.com/user-attachments/assets/b5b24f12-5e8e-4fc3-8dd1-09631729d835" />
 
 

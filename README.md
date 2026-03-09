@@ -24,7 +24,7 @@ The objective is to validate both the **correctness and stability** of the imple
 
 ## Repository Structure
 
-
+```text
 manual-linear-logistic-regression/
 │
 ├── manual_ml_model.py
@@ -33,25 +33,26 @@ manual-linear-logistic-regression/
 ├── plot_training_convergence_report.py
 │
 ├── experiments/
-│ ├── benchmark_sklearn_linear.py
-│ ├── benchmark_sklearn_logistic.py
-│ ├── real_dataset_linear_experiment.py
-│ ├── real_dataset_logistic_experiment_l2.py
-│ ├── test_manual_linear.py
-│ ├── test_manual_logistic.py
-│ ├── test_linear_raw_coefficients.py
-│ ├── test_logistic_raw_coefficients.py
-│ └── test_logistic_large_sample.py
+│   ├── benchmark_sklearn_linear.py
+│   ├── benchmark_sklearn_logistic.py
+│   ├── real_dataset_linear_experiment.py
+│   ├── real_dataset_logistic_experiment_l2.py
+│   ├── test_manual_linear.py
+│   ├── test_manual_logistic.py
+│   ├── test_linear_raw_coefficients.py
+│   ├── test_logistic_raw_coefficients.py
+│   └── test_logistic_large_sample.py
 │
 ├── figures/
-│ └── training_convergence_plot.png
+│   └── training_convergence_plot.png
 │
 ├── report/
-│ └── clean_room_ml_report.pdf
+│   └── clean_room_ml_report.pdf
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 
 

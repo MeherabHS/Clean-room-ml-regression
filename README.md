@@ -45,7 +45,8 @@ manual-linear-logistic-regression/
 │
 ├── figures/
 │   └── training_convergence_plot.png
-│-clean_room_ml_report.pdf
+├── clean_room_ml_report.pdf
+│    
 |
 │
 ├── requirements.txt

@@ -119,7 +119,7 @@ Example output:
 <img width="799" height="455" alt="image" src="https://github.com/user-attachments/assets/b5b24f12-5e8e-4fc3-8dd1-09631729d835" />
 
 
-These plots illustrate the characteristic phases of gradient descent:
+This plot will illustrate the characteristic phases of gradient descent:
 
 1. rapid initial loss reduction  
 2. stabilization as gradients decrease  
@@ -171,61 +171,8 @@ These results demonstrate that the manual implementations produce predictions ne
 
 ---
 
-## Installation
 
-Install dependencies using:
 
-These plots illustrate the characteristic phases of gradient descent:
-
-1. rapid initial loss reduction  
-2. stabilization as gradients decrease  
-3. convergence plateau near the optimum
-
----
-
-## Datasets Used
-
-### California Housing Dataset
-
-- Task: Regression
-- Metric: R² score
-- Source: Scikit-Learn dataset repository
-
-This dataset predicts median housing prices based on demographic and geographic variables.
-
----
-
-### Breast Cancer Wisconsin Dataset
-
-- Task: Binary classification
-- Metric: Accuracy
-- Source: Scikit-Learn dataset repository
-
-The dataset contains measurements derived from breast cancer biopsy images used to distinguish malignant and benign tumors.
-
----
-
-## Example Results
-
-### Synthetic Benchmark
-
-| Metric | Manual Implementation | Scikit-Learn |
-|------|------|------|
-| Linear Regression R² | 0.9937 | 0.9937 |
-| Logistic Regression Accuracy | 0.8435 | 0.8435 |
-
----
-
-### Real Dataset Results
-
-| Dataset | Model | Manual | Scikit-Learn |
-|------|------|------|------|
-| California Housing | Linear Regression | R² = 0.5756 | R² = 0.5758 |
-| Breast Cancer Wisconsin | Logistic Regression | Accuracy = 0.9824 | Accuracy = 0.9824 |
-
-These results demonstrate that the manual implementations produce predictions nearly identical to the reference implementations.
-
----
 
 ## Installation
 
